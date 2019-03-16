@@ -6,7 +6,7 @@ cache:
     - node_modules
 script:
   - npm run build
-  deploy:
+deploy:
   provider: surge
   skip_cleanup: true
   domain: amodsachintha-react-weather.surge.sh
